@@ -1,4 +1,4 @@
-##CR Website
+##CR Website##
 This is a sample website for the Camer Racing Team, it consists of the following pages.
 1. Landing page.
 2. About Us page.
