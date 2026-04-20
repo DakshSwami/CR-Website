@@ -1,0 +1,52 @@
+:root {
+    --camber-red: #dc3545;
+    --camber-black: #000000;
+    --camber-gray: #111111;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--camber-black);
+    color: white;
+    padding-top: 70px;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
+.camber-text-red { 
+    color: var(--camber-red); 
+}
+
+#aboutCarousel {
+    max-width: 900px;
+    margin: 40px auto;
+    border: 2px solid var(--camber-red);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(220, 53, 69, 0.4);
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.content-section {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.mission-box {
+    background-color: var(--camber-gray);
+    border-left: 5px solid var(--camber-red);
+    padding: 40px;
+    margin: 40px 0;
+}
+
+footer { 
+    background-color: #1a1a1a; 
+    border-top: 3px solid var(--camber-red); 
+}

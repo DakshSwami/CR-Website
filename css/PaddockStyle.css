@@ -1,0 +1,80 @@
+:root {
+    --camber-red: #dc3545;
+    --camber-black: #000000;
+    --camber-gray: #111111;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--camber-black);
+    color: white;
+    padding-top: 80px;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
+.camber-text-red { 
+    color: var(--camber-red); 
+}
+
+.highlight-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.highlight-title {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5rem;
+    font-weight: 800;
+    opacity: 0.8;
+    color: white;
+    z-index: 1;
+    text-shadow: 0 0 20px rgba(220, 53, 69, 0.8);
+}
+
+.highlight-img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #333;
+}
+
+.spec-table {
+    background-color: var(--camber-gray);
+    border: 1px solid #444;
+}
+
+.accordion-button {
+    background-color: #1a1a1a !important;
+    color: white !important;
+    border: 1px solid #333 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--camber-red) !important;
+    color: white !important;
+}
+
+.accordion-item {
+    background-color: black !important;
+    border: none !important;
+    margin-bottom: 10px;
+}
+
+.car-thumb {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+footer { 
+    background-color: #1a1a1a; 
+    border-top: 3px solid var(--camber-red); 
+}
